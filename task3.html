@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+    <title>Padded Input Fields</title>
+    <style>
+        
+        body {
+            margin: 100px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 600px;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 500px;
+            height: 40px;
+            font-size: 30px;
+            padding: 5px;
+            background-color: #eaeded; /* Change this color if desired */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            color: #333;
+        }
+
+        input[type="submit"] {
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #9e9e9e;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Kepler Form Login</h2>
+
+    <form>
+        <label >Username</label>
+        <input type="text" >
+
+        <label >Password</label>
+        <input type="password"  >
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+</body>
+
+</html>
